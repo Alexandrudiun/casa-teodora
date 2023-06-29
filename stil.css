@@ -72,3 +72,8 @@
                                 opacity: 1;
                             }
                         }
+                        button{
+                            border-radius: 12px; 
+                            font-size: x-large; 
+                            padding: 12px;
+                        }
