@@ -1,4 +1,5 @@
 
+                        
                         .box-container {
                             display: flex;
                             flex-wrap: wrap;
@@ -8,6 +9,10 @@
                             width: 100%;
                         }
                         .blur-box {
+                            -webkit-backface-visibility: hidden;
+                            -moz-backface-visibility: hidden;
+                            -webkit-transform: translate3d(0, 0, 0);
+                            -moz-transform: translate3d(0, 0, 0);
                             background-color: rgba(50, 50, 50, 0.5);
                             
                             border: 1px solid rgba(255, 255, 255, 0.8);
@@ -18,6 +23,10 @@
                             max-width: 600px;
                         }                    
                         .box{
+                            -webkit-backface-visibility: hidden;
+                            -moz-backface-visibility: hidden;
+                            -webkit-transform: translate3d(0, 0, 0);
+                            -moz-transform: translate3d(0, 0, 0);
                             flex-direction: column;
                             text-decoration: none;
                             height: 200px;
@@ -77,3 +86,5 @@
                             font-size: x-large; 
                             padding: 12px;
                         }
+                      
+                        
